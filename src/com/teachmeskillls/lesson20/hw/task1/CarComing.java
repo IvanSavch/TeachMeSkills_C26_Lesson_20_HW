@@ -2,10 +2,10 @@ package com.teachmeskillls.lesson20.hw.task1;
 
 import com.teachmeskillls.lesson20.hw.task1.constant.MaxCar;
 
-public class CarInput implements Runnable {
+public class CarComing implements Runnable {
     private STO sto;
 
-    public CarInput(STO sto) {
+    public CarComing(STO sto) {
         this.sto = sto;
     }
     public void carInput() {
